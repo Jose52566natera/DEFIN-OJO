@@ -1,19 +1,25 @@
-"id": "ojodulce-pos",
-  "name": "Ojo Dulce - POS",
+{
+  "id": "ojodulce-pos",
+  "name": "Ojo Dulce - Punto de Venta",
   "short_name": "Ojo Dulce",
   "description": "PUNTO_VENTA",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",
-  "display_override": ["standalone", "fullscreen"],
   "background_color": "#fff0f5",
   "theme_color": "#e8194b",
   "orientation": "landscape-primary",
   "icons": [
     {
+      "src": "icono-pos-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
       "src": "icono-pos-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "icono-pos-512.png",
@@ -22,3 +28,4 @@
       "purpose": "any maskable"
     }
   ]
+}
