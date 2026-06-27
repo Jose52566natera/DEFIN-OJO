@@ -1,7 +1,7 @@
 "id": "ojodulce-pos",
   "name": "Ojo Dulce - POS",
   "short_name": "Ojo Dulce",
-  "description": "Punto de Venta Ojo Dulce",
+  "description": "PUNTO_VENTA",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",
