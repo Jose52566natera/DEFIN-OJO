@@ -1,16 +1,24 @@
-{
-  "name": "Punto de Venta · Ojo Dulce",
-  "short_name": "OjoDulce",
-  "description": "Punto de venta de Ojo Dulce",
-  "start_url": "/DEFIN-OJO/",
-  "scope": "/DEFIN-OJO/",
+"id": "ojodulce-pos",
+  "name": "Ojo Dulce - POS",
+  "short_name": "Ojo Dulce",
+  "description": "Punto de Venta Ojo Dulce",
+  "start_url": ".",
+  "scope": ".",
   "display": "standalone",
+  "display_override": ["standalone", "fullscreen"],
   "background_color": "#fff0f5",
   "theme_color": "#e8194b",
-  "orientation": "any",
+  "orientation": "landscape-primary",
   "icons": [
-    { "src": "icono-pos-180.png", "sizes": "180x180", "type": "image/png" },
-    { "src": "icono-pos-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "icono-pos-512.png", "sizes": "512x512", "type": "image/png" }
+    {
+      "src": "icono-pos-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icono-pos-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
-}
